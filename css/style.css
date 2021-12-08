@@ -12,11 +12,34 @@ body {
 }
 
 #navbar {
-    margin: 3vh auto;
+    margin: 2vh auto;
     width: 90%;
     text-align: center;
     font-family: 'Bitter', serif;
     padding: 10px 0;
     border-top: 3px solid black;
     border-bottom: 2px solid rgba(128, 128, 128, 0.198);
+}
+
+.sns {
+    padding-right: 10%;
+    margin-top: 3%;
+}
+
+.sns li {
+    list-style: none;
+    float: right;
+}
+
+.sns a {
+    font-size: 2rem;
+    margin: 0 20px;
+    text-decoration: none;
+    color: black;
+    -webkit-transition: color 0.4s ease-in-out;
+    transition: color 0.4s ease-in-out;
+}
+
+.sns a:hover {
+    color: rgba(0, 0, 0, 0.602);
 }
