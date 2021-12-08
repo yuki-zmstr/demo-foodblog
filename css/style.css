@@ -12,6 +12,11 @@ body {
     font-family: 'Bitter', serif;
 }
 
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+
 #navbar {
     margin: 0 auto 2vh auto;
     width: 90%;
@@ -25,6 +30,16 @@ body {
 .sns {
     padding-right: 10%;
     margin-top: 3%;
+}
+
+.sns button {
+    background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgeD0iMHB4IiB5PSIwcHgiIHZpZXdCb3g9IjAgMCAzMiAzMiI+PHBhdGggZD0iTTcuMywxNmMwLDQuOCwzLjksOC43LDguNyw4LjdWNy4zQzExLjIsNy4zLDcuMywxMS4yLDcuMywxNnoiPjwvcGF0aD48cGF0aCBkPSJNMTYsMkM4LjMsMiwyLDguMywyLDE2YzAsNy43LDYuMywxNCwxNCwxNGM3LjcsMCwxNC02LjMsMTQtMTRDMzAsOC4zLDIzLjcsMiwxNiwyeiBNMTYsMjYuNWMtNS44LDAtMTAuNS00LjctMTAuNS0xMC41ICAgIGMwLTUuOCw0LjctMTAuNSwxMC41LTEwLjVTMjYuNSwxMC4yLDI2LjUsMTZDMjYuNSwyMS44LDIxLjgsMjYuNSwxNiwyNi41eiI+PC9wYXRoPjwvc3ZnPg==");
+    width: 40px;
+    height: 40px;
+    border: 0;
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
 }
 
 .sns li {
