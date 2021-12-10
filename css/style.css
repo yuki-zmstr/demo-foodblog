@@ -26,30 +26,32 @@ body {
 #navbar a {
     text-decoration: none;
     color: inherit;
+    transition: color 0.4s ease-in-out;
+    position: relative;
+    display: inline-block;
 }
 
+#navbar a:hover {
+    color: #a5785e;
+}
 
-/* #navbar a:after {
-    -webkit-transition: all 0.2s ease;
-    transition: all 0.2s ease;
-    width: 0;
-    height: 2px;
-    display: block;
+#navbar a:after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: -4px;
     content: "";
-    background: black;
-    position: absolute;
-    top: 100%;
+    display: block;
+    height: 3px;
     left: 50%;
-    right: 50%;
+    position: absolute;
+    background: #a5785e;
+    transition: width 0.2s ease 0s, left 0.2s ease 0s;
+    width: 0;
 }
 
 #navbar a:hover:after {
-    position: absolute;
-    width: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, 200%);
-    transform: translate(-50%, 200%);
-} */
+    width: 100%;
+    left: 0;
+}
 
 .sns {
     margin-top: 5%;
