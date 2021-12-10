@@ -72,6 +72,32 @@ body {
     transition: color 0.4s ease-in-out;
 }
 
+h2 {
+    display: inline-block;
+    position: relative;
+}
+
+h2:before,
+h2:after {
+    content: "";
+    position: absolute;
+    height: 5px;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    top: 49%;
+    width: 20vw;
+}
+
+h2:before {
+    right: 100%;
+    margin-right: 15px;
+}
+
+h2:after {
+    left: 100%;
+    margin-left: 15px;
+}
+
 #bw {
     cursor: pointer;
 }
@@ -105,6 +131,30 @@ body {
 
 #butter {
     background-image: url("../img/breakfast/butter.jpg");
+    background-size: 100%;
+    background-position-y: 60%;
+    background-position-x: 70%;
+    background-repeat: no-repeat;
+}
+
+#nanban {
+    background-image: url("../img/japanese/nanban.jpg");
+    background-size: 100%;
+    background-position-y: 70%;
+    background-position-x: 70%;
+    background-repeat: no-repeat;
+}
+
+#tamago {
+    background-image: url("../img/japanese/tamago.jpg");
+    background-size: 100%;
+    background-position-y: 50%;
+    background-position-x: 70%;
+    background-repeat: no-repeat;
+}
+
+#nikujaga {
+    background-image: url("../img/japanese/nikujaga.jpg");
     background-size: 100%;
     background-position-y: 60%;
     background-position-x: 70%;
