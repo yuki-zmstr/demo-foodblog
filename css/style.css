@@ -121,12 +121,14 @@ h2:after {
     background-color: black;
     color: white;
     font-size: 0.8rem;
+    margin: 0;
 }
 
 .bottom {
     float: left;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     background-color: white;
+    margin: 0;
     padding: 0 5px;
 }
 
