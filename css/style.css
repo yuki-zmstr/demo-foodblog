@@ -32,7 +32,8 @@ body {
     margin-top: 3%;
 }
 
-.sns button {
+
+/* .sns button {
     background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgeD0iMHB4IiB5PSIwcHgiIHZpZXdCb3g9IjAgMCAzMiAzMiI+PHBhdGggZD0iTTcuMywxNmMwLDQuOCwzLjksOC43LDguNyw4LjdWNy4zQzExLjIsNy4zLDcuMywxMS4yLDcuMywxNnoiPjwvcGF0aD48cGF0aCBkPSJNMTYsMkM4LjMsMiwyLDguMywyLDE2YzAsNy43LDYuMywxNCwxNCwxNGM3LjcsMCwxNC02LjMsMTQtMTRDMzAsOC4zLDIzLjcsMiwxNiwyeiBNMTYsMjYuNWMtNS44LDAtMTAuNS00LjctMTAuNS0xMC41ICAgIGMwLTUuOCw0LjctMTAuNSwxMC41LTEwLjVTMjYuNSwxMC4yLDI2LjUsMTZDMjYuNSwyMS44LDIxLjgsMjYuNSwxNiwyNi41eiI+PC9wYXRoPjwvc3ZnPg==");
     width: 40px;
     height: 40px;
@@ -40,7 +41,7 @@ body {
     -webkit-appearance: none;
     outline: none;
     cursor: pointer;
-}
+} */
 
 .sns li {
     list-style: none;
@@ -58,6 +59,17 @@ body {
 
 .sns a:hover {
     color: rgba(0, 0, 0, 0.602);
+}
+
+.switch {
+    border: 0;
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.switch img {
+    height: 40px;
 }
 
 .col-7,
