@@ -59,3 +59,34 @@ body {
 .sns a:hover {
     color: rgba(0, 0, 0, 0.602);
 }
+
+.col-7,
+.col-3,
+.col-4 {
+    height: 70vh;
+    margin: 10px;
+}
+
+#chics {
+    background-image: url("../img/breakfast/chics.jpg");
+    background-size: 110%;
+    background-position-y: 40%;
+    background-position-x: 70%;
+    background-repeat: no-repeat;
+}
+
+#honeyc {
+    background-image: url("../img/breakfast/honeyc.jpg");
+    background-size: 100%;
+    background-position-y: 70%;
+    background-position-x: 70%;
+    background-repeat: no-repeat;
+}
+
+#butter {
+    background-image: url("../img/breakfast/butter.jpg");
+    background-size: 100%;
+    background-position-y: 60%;
+    background-position-x: 70%;
+    background-repeat: no-repeat;
+}
