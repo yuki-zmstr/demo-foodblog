@@ -112,6 +112,34 @@ h2:after {
 .col-4 {
     height: 70vh;
     margin: 10px;
+    position: relative;
+}
+
+.top {
+    float: left;
+    padding: 0 5%;
+    background-color: black;
+    color: white;
+    font-size: 0.8rem;
+}
+
+.bottom {
+    float: left;
+    font-size: 1.5rem;
+    background-color: white;
+    padding: 0 5px;
+}
+
+.bottomright {
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+}
+
+.bottomleft {
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
 }
 
 #chics {
