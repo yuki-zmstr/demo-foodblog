@@ -10,11 +10,7 @@ body {
     position: relative;
     overflow-x: hidden;
     font-family: 'Bitter', serif;
-}
-
-.dark-mode {
-    background-color: black;
-    color: white;
+    color: black;
 }
 
 #navbar {
@@ -32,17 +28,6 @@ body {
     margin-top: 3%;
 }
 
-
-/* .sns button {
-    background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgeD0iMHB4IiB5PSIwcHgiIHZpZXdCb3g9IjAgMCAzMiAzMiI+PHBhdGggZD0iTTcuMywxNmMwLDQuOCwzLjksOC43LDguNyw4LjdWNy4zQzExLjIsNy4zLDcuMywxMS4yLDcuMywxNnoiPjwvcGF0aD48cGF0aCBkPSJNMTYsMkM4LjMsMiwyLDguMywyLDE2YzAsNy43LDYuMywxNCwxNCwxNGM3LjcsMCwxNC02LjMsMTQtMTRDMzAsOC4zLDIzLjcsMiwxNiwyeiBNMTYsMjYuNWMtNS44LDAtMTAuNS00LjctMTAuNS0xMC41ICAgIGMwLTUuOCw0LjctMTAuNSwxMC41LTEwLjVTMjYuNSwxMC4yLDI2LjUsMTZDMjYuNSwyMS44LDIxLjgsMjYuNSwxNiwyNi41eiI+PC9wYXRoPjwvc3ZnPg==");
-    width: 40px;
-    height: 40px;
-    border: 0;
-    -webkit-appearance: none;
-    outline: none;
-    cursor: pointer;
-} */
-
 .sns li {
     list-style: none;
     float: right;
@@ -52,19 +37,12 @@ body {
     font-size: 2rem;
     margin: 0 20px;
     text-decoration: none;
-    color: black;
+    color: inherit;
     -webkit-transition: color 0.4s ease-in-out;
     transition: color 0.4s ease-in-out;
 }
 
-.sns a:hover {
-    color: rgba(0, 0, 0, 0.602);
-}
-
-.switch {
-    border: 0;
-    -webkit-appearance: none;
-    outline: none;
+#bw {
     cursor: pointer;
 }
 
@@ -101,4 +79,9 @@ body {
     background-position-y: 60%;
     background-position-x: 70%;
     background-repeat: no-repeat;
+}
+
+.dark-mode {
+    background-color: black;
+    color: white;
 }
