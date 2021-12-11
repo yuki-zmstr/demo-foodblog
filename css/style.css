@@ -13,7 +13,7 @@ body {
     color: black;
 }
 
-#navbar {
+#topnav {
     margin: 0 auto 2vh auto;
     width: 90%;
     text-align: center;
@@ -23,7 +23,7 @@ body {
     border-bottom: 2px solid rgba(128, 128, 128, 0.198);
 }
 
-#navbar a {
+#topnav a {
     text-decoration: none;
     color: inherit;
     transition: color 0.4s ease-in-out;
@@ -31,11 +31,11 @@ body {
     display: inline-block;
 }
 
-#navbar a:hover {
+#topnav a:hover {
     color: #a5785e;
 }
 
-#navbar a:after {
+#topnav a:after {
     background: none repeat scroll 0 0 transparent;
     bottom: -4px;
     content: "";
@@ -48,7 +48,7 @@ body {
     width: 0;
 }
 
-#navbar a:hover:after {
+#topnav a:hover:after {
     width: 100%;
     left: 0;
 }
@@ -107,10 +107,12 @@ h2:after {
     height: 40px;
 }
 
+.col.food,
 .col-7,
 .col-3,
-.col-4 {
-    height: 70vh;
+.col-4,
+.col-5 {
+    height: 50vh;
     margin: 10px;
     position: relative;
 }
@@ -126,7 +128,8 @@ h2:after {
 
 .bottom {
     float: left;
-    font-size: 1.6rem;
+    font-size: 1.7rem;
+    font-family: 'Kumbh Sans', sans-serif;
     background-color: white;
     color: black;
     margin: 0;
@@ -188,7 +191,7 @@ h2:after {
 #nikujaga {
     background-image: url("../img/japanese/nikujaga.jpg");
     background-size: 100%;
-    background-position-y: 100%;
+    background-position-y: 60%;
     background-position-x: 70%;
     background-repeat: no-repeat;
 }
