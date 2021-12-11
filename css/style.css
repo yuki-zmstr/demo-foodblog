@@ -126,6 +126,15 @@ h2:after {
     margin: 0;
 }
 
+
+/* .l {
+    float: left;
+}
+
+.r {
+    background-color: blue;
+} */
+
 .bottom {
     float: left;
     font-size: 1.7rem;
@@ -159,15 +168,15 @@ h2:after {
 #honeyc {
     background-image: url("../img/breakfast/honeyc.jpg");
     background-size: 100%;
-    background-position-y: 70%;
-    background-position-x: 70%;
+    background-position-y: 60%;
+    background-position-x: 100%;
     background-repeat: no-repeat;
 }
 
 #butter {
     background-image: url("../img/breakfast/butter.jpg");
     background-size: 100%;
-    background-position-y: 60%;
+    background-position-y: 80%;
     background-position-x: 70%;
     background-repeat: no-repeat;
 }
@@ -201,6 +210,70 @@ h2:after {
     background-size: 100%;
     background-position-y: 70%;
     background-position-x: 100%;
+    background-repeat: no-repeat;
+}
+
+#karateri {
+    background-image: url("../img/japanese/karateri.jpg");
+    background-size: 100%;
+    background-position-y: 60%;
+    background-position-x: 100%;
+    background-repeat: no-repeat;
+}
+
+#tamagoc {
+    background-image: url("../img/japanese/tamagoc.jpg");
+    background-size: 100%;
+    background-position-y: 80%;
+    background-position-x: 100%;
+    background-repeat: no-repeat;
+}
+
+#curry {
+    background-image: url("../img/japanese/curry.jpg");
+    background-size: 120%;
+    background-position-y: 80%;
+    background-position-x: 90%;
+    background-repeat: no-repeat;
+}
+
+#crispyc {
+    background-image: url("../img/western/crispyc.jpg");
+    background-size: 100%;
+    background-position-y: 100%;
+    background-position-x: 90%;
+    background-repeat: no-repeat;
+}
+
+#risotto {
+    background-image: url("../img/western/risotto.jpg");
+    background-size: 100%;
+    background-position-y: 50%;
+    background-position-x: 90%;
+    background-repeat: no-repeat;
+}
+
+#carbonarra {
+    background-image: url("../img/western/carbonarra.jpg");
+    background-size: 100%;
+    background-position-y: 70%;
+    background-position-x: 90%;
+    background-repeat: no-repeat;
+}
+
+#homec {
+    background-image: url("../img/western/homec.jpg");
+    background-size: 100%;
+    background-position-y: 70%;
+    background-position-x: 100%;
+    background-repeat: no-repeat;
+}
+
+#creamp {
+    background-image: url("../img/western/creamp.jpg");
+    background-size: 100%;
+    background-position-y: 70%;
+    background-position-x: 90%;
     background-repeat: no-repeat;
 }
 
