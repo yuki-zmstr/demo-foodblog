@@ -11,6 +11,16 @@ body {
     overflow-x: hidden;
     font-family: 'Bitter', serif;
     color: black;
+    font-size: 15px;
+}
+
+#Y {
+    font-size: 6rem;
+    padding: 0
+}
+
+#umz {
+    vertical-align: middle;
 }
 
 #topnav {
@@ -21,6 +31,7 @@ body {
     padding: 10px 0;
     border-top: 3px solid rgb(63, 63, 63);
     border-bottom: 2px solid rgba(128, 128, 128, 0.198);
+    font-size: 1.1rem;
 }
 
 #topnav a {
@@ -65,7 +76,7 @@ body {
 
 .sns a {
     font-size: 2rem;
-    margin: 0 20px;
+    margin: 0 1.5rem;
     text-decoration: none;
     color: inherit;
     -webkit-transition: color 0.4s ease-in-out;
@@ -107,11 +118,21 @@ h2:after {
     height: 40px;
 }
 
-.col.food,
-.col-7,
-.col-3,
-.col-4,
-.col-5 {
+#chics,
+#honeyc,
+#butter,
+#nanban,
+#tamago,
+#nikujaga,
+#stew,
+#karateri,
+#tamagoc,
+#curry,
+#crispyc,
+#risotto,
+#carbonarra,
+#homec,
+#creamp {
     height: 50vh;
     margin: 10px;
     position: relative;

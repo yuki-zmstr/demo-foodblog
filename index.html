@@ -31,7 +31,7 @@
     <link rel="stylesheet" href="css/style.css" />
 
     <!-- queries -->
-    <link rel="stylesheet" href="queries/queries.css" />
+    <link rel="stylesheet" href="css/queries.css" />
 
     <!-- animations -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
@@ -45,8 +45,8 @@
         <div class="row">
             <div class="col" style="padding-left: 10%; font-family: 'Bitter', serif; font-size: 3rem; font-weight: 900;">
                 <table>
-                    <td style="font-size: 6rem; padding:0">Y</td>
-                    <td style="vertical-align: middle;">umz & Sweetz</td>
+                    <td id="Y">Y</td>
+                    <td id="umz">umz & Sweetz</td>
                 </table>
             </div>
             <div class="col sns">
@@ -96,13 +96,13 @@
         <div class="container-fluid" id="breakfast" style="text-align: center ">
             <h2>Breakfast</h2>
             <div class="row">
-                <div class="col-7" id="chics">
+                <div class="col-lg-7" id="chics">
                     <div class="row bottomright">
                         <div class="row top r">Sandwich</div>
                         <span class="row bottom">Chic & Cheese Sandwich</span>
                     </div>
                 </div>
-                <div class="col food" id="honeyc">
+                <div class="col-lg" id="honeyc">
                     <div class="row bottomleft">
                         <div class="row top l">Toast</div>
                         <span class="row bottom">Honey & Cheese Toast</span>
@@ -110,7 +110,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-4" id="butter">
+                <div class="col-lg-4" id="butter">
                     <div class="row bottomleft">
                         <div class="row top l">Toast</div>
                         <span class="row bottom">Toast w Homemade Butter</span>
@@ -121,13 +121,13 @@
         <div class="container-fluid" id="japanese" style="text-align: center ">
             <h2>Japanese</h2>
             <div class="row">
-                <div class="col-7" id="nanban">
+                <div class="col-lg-7" id="nanban">
                     <div class="row bottomright">
                         <div class="row top r">Chicken</div>
                         <span class="row bottom">Chicken w Nanban Sauce</span>
                     </div>
                 </div>
-                <div class="col food" id="tamago">
+                <div class="col-lg" id="tamago">
                     <div class="row bottomleft">
                         <div class="row top l">Egg</div>
                         <span class="row bottom">Tamago-yaki</span>
@@ -135,13 +135,13 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-4" id="nikujaga">
+                <div class="col-lg-4" id="nikujaga">
                     <div class="row bottomleft">
                         <div class="row top l">Stew</div>
                         <span class="row bottom">Niku-jaga</span>
                     </div>
                 </div>
-                <div class="col food" id="stew">
+                <div class="col-lg" id="stew">
                     <div class="row bottomleft">
                         <div class="row top l">Stew</div>
                         <span class="row bottom">Cream Stew</span>
@@ -149,19 +149,19 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-4" id="karateri">
+                <div class="col-lg-4" id="karateri">
                     <div class="row bottomleft">
                         <div class="row top l">Chicken</div>
                         <span class="row bottom">Kara-age (Teriyaki)</span>
                     </div>
                 </div>
-                <div class="col-4" id="tamagoc">
+                <div class="col-lg-4" id="tamagoc">
                     <div class="row bottomleft">
                         <div class="row top l">Egg</div>
                         <span class="row bottom">Tamago-yaki w Cheese</span>
                     </div>
                 </div>
-                <div class="col food" id="curry">
+                <div class="col-lg" id="curry">
                     <div class="row bottomleft">
                         <!-- <div class="row top">Curry</div> -->
                         <span class="row bottom">Japanese Curry</span>
@@ -172,13 +172,13 @@
         <div class="container-fluid" id="western" style="text-align: center ">
             <h2>Western</h2>
             <div class="row">
-                <div class="col-4" id="crispyc">
+                <div class="col-lg-4" id="crispyc">
                     <div class="row bottomright">
                         <div class="row top r">Chicken</div>
                         <span class="row bottom">Crispy Chicken Fillet w Cheese</span>
                     </div>
                 </div>
-                <div class="col food" id="risotto">
+                <div class="col-lg" id="risotto">
                     <div class="row bottomleft">
                         <div class="row top l">Rice</div>
                         <span class="row bottom">Risotto</span>
@@ -186,19 +186,19 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-4" id="carbonarra">
+                <div class="col-lg-4" id="carbonarra">
                     <div class="row bottomleft">
                         <div class="row top l">Pasta</div>
                         <span class="row bottom">Carbonarra w Bacon</span>
                     </div>
                 </div>
-                <div class="col-4" id="homec">
+                <div class="col-lg-4" id="homec">
                     <div class="row bottomright">
                         <div class="row top l">Sauce</div>
                         <span class="row bottom">Homemade Cheese Sauce</span>
                     </div>
                 </div>
-                <div class="col food" id="creamp">
+                <div class="col-lg" id="creamp">
                     <div class="row bottomleft">
                         <div class="row top l">Pasta</div>
                         <span class="row bottom">Cream Pasta</span>
@@ -207,7 +207,7 @@
             </div>
         </div>
         <div class="container-fluid " style="text-align: center ">
-            Thank you for your time. &#169; 2021 Yukihide Takahashi
+            &#169; 2021 Yukihide Takahashi
             <!-- <div class="row ">
                 <a class="btn7 " href="#about ">Return to Top</a>
             </div> -->
