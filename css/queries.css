@@ -77,6 +77,7 @@
     }
     .sns {
         width: 80vw;
+        margin-top: 4%;
         padding-right: 5%;
     }
     .sns a {
@@ -131,5 +132,8 @@
         position: absolute;
         bottom: 30px;
         left: 30px;
+    }
+    #copyright {
+        font-size: 0.8rem;
     }
 }
