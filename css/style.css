@@ -132,7 +132,11 @@ h2:after {
 #risotto,
 #carbonarra,
 #homec,
-#creamp {
+#creamp,
+#thymec,
+#gbchic,
+#tomatostew,
+#chicm {
     height: 50vh;
     margin: 10px;
     position: relative;
@@ -290,10 +294,42 @@ h2:after {
     background-repeat: no-repeat;
 }
 
+#gbchic {
+    background-image: url("../img/western/gbchic.jpg");
+    background-size: 130%;
+    background-position-y: 100%;
+    background-position-x: 80%;
+    background-repeat: no-repeat;
+}
+
 #creamp {
     background-image: url("../img/western/creamp.jpg");
     background-size: 100%;
-    background-position-y: 70%;
+    background-position-y: 50%;
+    background-position-x: 90%;
+    background-repeat: no-repeat;
+}
+
+#thymec {
+    background-image: url("../img/western/thymec.jpg");
+    background-size: 100%;
+    background-position-y: 50%;
+    background-position-x: 90%;
+    background-repeat: no-repeat;
+}
+
+#tomatostew {
+    background-image: url("../img/western/tomatostew.jpg");
+    background-size: 100%;
+    background-position-y: 50%;
+    background-position-x: 90%;
+    background-repeat: no-repeat;
+}
+
+#chicm {
+    background-image: url("../img/western/chicm.jpg");
+    background-size: 100%;
+    background-position-y: 50%;
     background-position-x: 90%;
     background-repeat: no-repeat;
 }
