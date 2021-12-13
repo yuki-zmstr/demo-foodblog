@@ -150,8 +150,25 @@ h2:after {
 #snowc,
 #potatob,
 #potatobi,
-#stirc {
+#stirc,
+#fruittart,
+#pudding,
+#cinamoncookie,
+#orangep,
+#pancake,
+#coffeec,
+#spongeora,
+#spongechoc {
     height: 50vh;
+    margin: 10px;
+    position: relative;
+}
+
+#cheesecake,
+#afternoon,
+#choccake,
+#spongecaramel {
+    height: 70vh;
     margin: 10px;
     position: relative;
 }
@@ -161,7 +178,7 @@ h2:after {
     padding: 0 5%;
     background-color: black;
     color: white;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     margin: 0;
 }
 
@@ -456,6 +473,102 @@ h2:after {
     background-image: url("../img/korean/stirc.jpg");
     background-size: 100%;
     background-position-y: 60%;
+    background-position-x: 60%;
+    background-repeat: no-repeat;
+}
+
+#pudding {
+    background-image: url("../img/sweetz/pudding.jpg");
+    background-size: 100%;
+    background-position-y: 60%;
+    background-position-x: 60%;
+    background-repeat: no-repeat;
+}
+
+#fruittart {
+    background-image: url("../img/sweetz/fruittart.jpg");
+    background-size: 100%;
+    background-position-y: 60%;
+    background-position-x: 90%;
+    background-repeat: no-repeat;
+}
+
+#cinamoncookie {
+    background-image: url("../img/sweetz/cinamoncookie.jpg");
+    background-size: 100%;
+    background-position-y: 70%;
+    background-position-x: 60%;
+    background-repeat: no-repeat;
+}
+
+#orangep {
+    background-image: url("../img/sweetz/orangep.jpg");
+    background-size: 100%;
+    background-position-y: 40%;
+    background-position-x: 90%;
+    background-repeat: no-repeat;
+}
+
+#pancake {
+    background-image: url("../img/sweetz/pancake.jpg");
+    background-size: 100%;
+    background-position-y: 60%;
+    background-position-x: 90%;
+    background-repeat: no-repeat;
+}
+
+#cheesecake {
+    background-image: url("../img/sweetz/cheesecake.jpg");
+    background-size: 100%;
+    background-position-y: 60%;
+    background-position-x: 60%;
+    background-repeat: no-repeat;
+}
+
+#afternoon {
+    background-image: url("../img/sweetz/afternoon.jpg");
+    background-size: 100%;
+    background-position-y: 100%;
+    background-position-x: 60%;
+    background-repeat: no-repeat;
+}
+
+#coffeec {
+    background-image: url("../img/sweetz/coffeec.jpg");
+    background-size: 100%;
+    background-position-y: 60%;
+    background-position-x: 90%;
+    background-repeat: no-repeat;
+}
+
+#spongeora {
+    background-image: url("../img/sweetz/spongeora.jpg");
+    background-size: 100%;
+    background-position-y: 80%;
+    background-position-x: 60%;
+    background-repeat: no-repeat;
+}
+
+#spongechoc {
+    background-image: url("../img/sweetz/spongechoc.jpg");
+    background-size: 100%;
+    background-position-y: 60%;
+    background-position-x: 60%;
+    background-repeat: no-repeat;
+}
+
+#choccake {
+    background-image: url("../img/sweetz/choccake.jpg");
+    background-size: 100%;
+    background-position-y: 55%;
+    background-position-x: 60%;
+    background-repeat: no-repeat;
+}
+
+#spongecaramel {
+    background-image: url("../img/sweetz/spongecaramel.jpg");
+    background-size: 100%;
+    background-position-y: 70%;
     background-position-x: 60%;
     background-repeat: no-repeat;
 }
