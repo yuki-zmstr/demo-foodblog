@@ -151,19 +151,20 @@ h2:after {
 #potatob,
 #potatobi,
 #stirc,
-#fruittart,
-#pudding,
 #cinamoncookie,
-#orangep,
+#pudding,
 #pancake,
 #coffeec,
 #spongeora,
-#spongechoc {
+#spongechoc,
+#chocchip {
     height: 50vh;
     margin: 10px;
     position: relative;
 }
 
+#fruittart,
+#orangep,
 #cheesecake,
 #afternoon,
 #choccake,
@@ -477,18 +478,18 @@ h2:after {
     background-repeat: no-repeat;
 }
 
-#pudding {
-    background-image: url("../img/sweetz/pudding.jpg");
-    background-size: 100%;
-    background-position-y: 60%;
-    background-position-x: 60%;
-    background-repeat: no-repeat;
-}
-
 #fruittart {
     background-image: url("../img/sweetz/fruittart.jpg");
     background-size: 100%;
     background-position-y: 60%;
+    background-position-x: 90%;
+    background-repeat: no-repeat;
+}
+
+#orangep {
+    background-image: url("../img/sweetz/orangep.jpg");
+    background-size: 100%;
+    background-position-y: 40%;
     background-position-x: 90%;
     background-repeat: no-repeat;
 }
@@ -501,11 +502,11 @@ h2:after {
     background-repeat: no-repeat;
 }
 
-#orangep {
-    background-image: url("../img/sweetz/orangep.jpg");
+#pudding {
+    background-image: url("../img/sweetz/pudding.jpg");
     background-size: 100%;
-    background-position-y: 40%;
-    background-position-x: 90%;
+    background-position-y: 70%;
+    background-position-x: 60%;
     background-repeat: no-repeat;
 }
 
@@ -552,7 +553,7 @@ h2:after {
 #spongechoc {
     background-image: url("../img/sweetz/spongechoc.jpg");
     background-size: 100%;
-    background-position-y: 60%;
+    background-position-y: 70%;
     background-position-x: 60%;
     background-repeat: no-repeat;
 }
@@ -569,6 +570,14 @@ h2:after {
     background-image: url("../img/sweetz/spongecaramel.jpg");
     background-size: 100%;
     background-position-y: 70%;
+    background-position-x: 60%;
+    background-repeat: no-repeat;
+}
+
+#chocchip {
+    background-image: url("../img/sweetz/chocchip.jpg");
+    background-size: 100%;
+    background-position-y: 80%;
     background-position-x: 60%;
     background-repeat: no-repeat;
 }
