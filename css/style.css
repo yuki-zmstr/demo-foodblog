@@ -145,7 +145,12 @@ h2:after {
 #soursoup,
 #sweetsour,
 #gopasta,
-#stewc {
+#stewc,
+#yangnyeomc,
+#snowc,
+#potatob,
+#potatobi,
+#stirc {
     height: 50vh;
     margin: 10px;
     position: relative;
@@ -411,6 +416,46 @@ h2:after {
     background-image: url("../img/fusion/stewc.jpg");
     background-size: 100%;
     background-position-y: 50%;
+    background-position-x: 60%;
+    background-repeat: no-repeat;
+}
+
+#yangnyeomc {
+    background-image: url("../img/korean/yangnyeomc.jpg");
+    background-size: 100%;
+    background-position-y: 50%;
+    background-position-x: 60%;
+    background-repeat: no-repeat;
+}
+
+#snowc {
+    background-image: url("../img/korean/snowc.jpg");
+    background-size: 100%;
+    background-position-y: 60%;
+    background-position-x: 90%;
+    background-repeat: no-repeat;
+}
+
+#potatob {
+    background-image: url("../img/korean/potatob.jpg");
+    background-size: 100%;
+    background-position-y: 70%;
+    background-position-x: 60%;
+    background-repeat: no-repeat;
+}
+
+#potatobi {
+    background-image: url("../img/korean/potatobi.jpg");
+    background-size: 100%;
+    background-position-y: 40%;
+    background-position-x: 90%;
+    background-repeat: no-repeat;
+}
+
+#stirc {
+    background-image: url("../img/korean/stirc.jpg");
+    background-size: 100%;
+    background-position-y: 60%;
     background-position-x: 60%;
     background-repeat: no-repeat;
 }
