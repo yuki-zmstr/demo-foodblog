@@ -136,7 +136,14 @@ h2:after {
 #thymec,
 #gbchic,
 #tomatostew,
-#chicm {
+#chicm,
+#sweetc,
+#friedr,
+#oysterc,
+#soboro,
+#sesamec,
+#soursoup,
+#sweetsour {
     height: 50vh;
     margin: 10px;
     position: relative;
@@ -331,6 +338,62 @@ h2:after {
     background-size: 100%;
     background-position-y: 50%;
     background-position-x: 90%;
+    background-repeat: no-repeat;
+}
+
+#sweetc {
+    background-image: url("../img/chinese/sweetc.jpg");
+    background-size: 100%;
+    background-position-y: 50%;
+    background-position-x: 90%;
+    background-repeat: no-repeat;
+}
+
+#friedr {
+    background-image: url("../img/chinese/friedr.jpg");
+    background-size: 120%;
+    background-position-y: 60%;
+    background-position-x: 50%;
+    background-repeat: no-repeat;
+}
+
+#oysterc {
+    background-image: url("../img/chinese/oysterc.jpg");
+    background-size: 100%;
+    background-position-y: 70%;
+    background-position-x: 90%;
+    background-repeat: no-repeat;
+}
+
+#soboro {
+    background-image: url("../img/chinese/soboro.jpg");
+    background-size: 100%;
+    background-position-y: 60%;
+    background-position-x: 90%;
+    background-repeat: no-repeat;
+}
+
+#sesamec {
+    background-image: url("../img/chinese/sesamec.jpg");
+    background-size: 100%;
+    background-position-y: 60%;
+    background-position-x: 60%;
+    background-repeat: no-repeat;
+}
+
+#soursoup {
+    background-image: url("../img/chinese/soursoup.jpg");
+    background-size: 100%;
+    background-position-y: 60%;
+    background-position-x: 90%;
+    background-repeat: no-repeat;
+}
+
+#sweetsour {
+    background-image: url("../img/chinese/sweetsour.jpg");
+    background-size: 100%;
+    background-position-y: 50%;
+    background-position-x: 60%;
     background-repeat: no-repeat;
 }
 
