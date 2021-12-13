@@ -143,7 +143,9 @@ h2:after {
 #soboro,
 #sesamec,
 #soursoup,
-#sweetsour {
+#sweetsour,
+#gopasta,
+#stewc {
     height: 50vh;
     margin: 10px;
     position: relative;
@@ -391,6 +393,22 @@ h2:after {
 
 #sweetsour {
     background-image: url("../img/chinese/sweetsour.jpg");
+    background-size: 100%;
+    background-position-y: 50%;
+    background-position-x: 60%;
+    background-repeat: no-repeat;
+}
+
+#gopasta {
+    background-image: url("../img/fusion/gopasta.jpg");
+    background-size: 100%;
+    background-position-y: 80%;
+    background-position-x: 90%;
+    background-repeat: no-repeat;
+}
+
+#stewc {
+    background-image: url("../img/fusion/stewc.jpg");
     background-size: 100%;
     background-position-y: 50%;
     background-position-x: 60%;
