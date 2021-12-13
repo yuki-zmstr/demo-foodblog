@@ -586,3 +586,7 @@ h2:after {
     background-color: black;
     color: white;
 }
+
+#copyright {
+    margin-top: 5vh;
+}
