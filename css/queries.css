@@ -115,8 +115,43 @@
     #risotto,
     #carbonarra,
     #homec,
-    #creamp {
+    #creamp,
+    #thymec,
+    #gbchic,
+    #tomatostew,
+    #chicm,
+    #sweetc,
+    #friedr,
+    #oysterc,
+    #soboro,
+    #sesamec,
+    #soursoup,
+    #sweetsour,
+    #gopasta,
+    #stewc,
+    #yangnyeomc,
+    #snowc,
+    #potatob,
+    #potatobi,
+    #stirc,
+    #cinamoncookie,
+    #pudding,
+    #pancake,
+    #coffeec,
+    #spongeora,
+    #spongechoc,
+    #chocchip {
         height: 35vh;
+        margin: 10px;
+        position: relative;
+    }
+    #fruittart,
+    #orangep,
+    #cheesecake,
+    #afternoon,
+    #choccake,
+    #spongecaramel {
+        height: 50vh;
         margin: 10px;
         position: relative;
     }
